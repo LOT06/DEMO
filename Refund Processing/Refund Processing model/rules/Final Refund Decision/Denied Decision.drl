@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Denied Decision</name>
+  <uuid>e9421cad-4972-4921-88f9-11e52dd185d3</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    'the validate time window' is denied
+    or 'the validate type of goods' is denied
+then
+    set decision to denied ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

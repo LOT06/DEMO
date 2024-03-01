@@ -1,0 +1,13 @@
+{
+  "theRefundRequest" : {
+    "reason" : "noLongerNeeded",
+    "goodsCondition" : "wornOrDamaged",
+    "daysSinceOrderDelivered" : 22
+  },
+  "theOrder" : {
+    "subtotal" : 138,
+    "salesTax" : 12,
+    "shippingCost" : 30,
+    "goodsCategories" : [ "musicOrVideo" ]
+  }
+}
