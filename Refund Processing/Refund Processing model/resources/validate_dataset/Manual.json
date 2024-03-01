@@ -1,13 +1,1 @@
-{
-  "theRefundRequest" : {
-    "reason" : "noLongerNeeded",
-    "goodsCondition" : "wornOrDamaged",
-    "daysSinceOrderDelivered" : 22
-  },
-  "theOrder" : {
-    "subtotal" : 138,
-    "salesTax" : 12,
-    "shippingCost" : 30,
-    "goodsCategories" : [ "musicOrVideo" ]
-  }
-}
+{"operationId":null,"body":{"theRefundRequest":{"reason":"NoLongerNeeded","goodsCondition":"WornOrDamaged","daysSinceOrderDelivered":22},"theOrder":{"subtotal":138,"salesTax":12,"shippingCost":30,"goodsCategories":["MusicOrVideo"]}}}
