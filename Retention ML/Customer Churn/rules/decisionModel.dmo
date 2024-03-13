@@ -60,7 +60,7 @@
         <variable id="node_1_ii" name="Subscription" typeRef="decisions.mlsamples.telco_retention.data.Subscription"/>
     </inputData>
     <decision id="Prediction" name="ML model invocation">
-        <description>Machine Learning model output</description>
+        <description>ML model output</description>
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="cp4admin.customer_retention.retention_ml.customerchurn.Input" collection="false" name="Input mapping"/>

@@ -1,8 +1,8 @@
 {
-  "id" : "schemaOut",
+  "id" : "default_schema_id",
   "fields" : [ {
-    "name" : "output",
-    "type" : "string",
+    "name" : "prediction",
+    "type" : "double",
     "nullable" : true
   } ]
 }

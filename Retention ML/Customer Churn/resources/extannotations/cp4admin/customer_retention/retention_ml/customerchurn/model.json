@@ -1,0 +1,72 @@
+{
+  "metadata" : {
+    "id" : "a881d4e5-6c51-44ce-9977-ed1c639e307f",
+    "name" : "SkyTalk churn prediction - P4 XGB Classifier - Model",
+    "modified_at" : "2024-03-11T12:41:11.864Z",
+    "created_at" : "2024-03-11T12:41:11.733Z",
+    "owner" : "IBMid-270002541S",
+    "space_id" : "f79a050e-294f-46ea-94ec-0592f22027da"
+  },
+  "entity" : {
+    "label_column" : "CHURN",
+    "content_import_state" : "completed",
+    "metrics" : [ {
+      "timestamp" : "2024-03-11T10:03:14.000Z",
+      "ml_metrics" : { },
+      "context" : {
+        "phase" : "hpo_c_output"
+      }
+    } ],
+    "type" : "wml-hybrid_0.1",
+    "schemas" : {
+      "input" : [ {
+        "id" : "auto_ai_kb_input_schema",
+        "fields" : [ {
+          "name" : "Gender",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Status",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Household",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Est Income",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Car Owner",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Age",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Paymethod",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Usage",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "RatePlan",
+          "type" : "double",
+          "nullable" : true
+        } ]
+      } ],
+      "output" : [ ]
+    }
+  },
+  "system" : {
+    "warnings" : [ ]
+  },
+  "id" : "a881d4e5-6c51-44ce-9977-ed1c639e307f",
+  "name" : "SkyTalk churn prediction - P4 XGB Classifier - Model",
+  "trainedAt" : "2024-03-11T12:41:11.733Z",
+  "modifiedAt" : "2024-03-11T12:41:11.864Z"
+}

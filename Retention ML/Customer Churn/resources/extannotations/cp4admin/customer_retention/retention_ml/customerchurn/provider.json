@@ -1,12 +1,17 @@
 {
-  "name" : "disconnectedProvider",
-  "type" : "OPS",
-  "description" : null,
-  "updateTime" : 0,
-  "authInfo" : null,
+  "name" : "cp4admin/Customer-retention/SkyTalk ML provider1710337577588",
+  "type" : "WML",
+  "description" : "",
+  "updateTime" : 1710337577704,
+  "authInfo" : {
+    "authType" : "IAM",
+    "apiKey" : null,
+    "authUrl" : "https://iam.bluemix.net/identity/token"
+  },
   "providerAdditionalInfo" : {
-    "providerType" : "OPS",
-    "mlUrl" : ""
+    "providerType" : "WML",
+    "mlUrl" : "https://eu-gb.ml.cloud.ibm.com/ml/v4/",
+    "spaceId" : "f79a050e-294f-46ea-94ec-0592f22027da"
   },
   "version" : "V1"
 }

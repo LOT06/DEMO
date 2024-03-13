@@ -1,0 +1,72 @@
+{
+  "metadata" : {
+    "id" : "0d3a3259-6c03-4547-a9b7-89f034c33d7b",
+    "name" : "SkyTalk lifetime value prediction - P4 Snap Boosting Machine Regressor - Model",
+    "modified_at" : "2024-03-11T10:28:32.813Z",
+    "created_at" : "2024-03-11T10:28:32.684Z",
+    "owner" : "IBMid-270002541S",
+    "space_id" : "f79a050e-294f-46ea-94ec-0592f22027da"
+  },
+  "entity" : {
+    "label_column" : "LifetimeValue",
+    "content_import_state" : "completed",
+    "metrics" : [ {
+      "timestamp" : "2024-03-11T10:06:23.000Z",
+      "ml_metrics" : { },
+      "context" : {
+        "phase" : "hpo_c_output"
+      }
+    } ],
+    "type" : "wml-hybrid_0.1",
+    "schemas" : {
+      "input" : [ {
+        "id" : "auto_ai_kb_input_schema",
+        "fields" : [ {
+          "name" : "Gender",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Status",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Household",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Est Income",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Car Owner",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Age",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Paymethod",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Usage",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "RatePlan",
+          "type" : "double",
+          "nullable" : true
+        } ]
+      } ],
+      "output" : [ ]
+    }
+  },
+  "system" : {
+    "warnings" : [ ]
+  },
+  "id" : "0d3a3259-6c03-4547-a9b7-89f034c33d7b",
+  "name" : "SkyTalk lifetime value prediction - P4 Snap Boosting Machine Regressor - Model",
+  "trainedAt" : "2024-03-11T10:28:32.684Z",
+  "modifiedAt" : "2024-03-11T10:28:32.813Z"
+}

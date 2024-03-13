@@ -1,10 +1,10 @@
 {
-  "id" : null,
-  "providerId" : null,
+  "id" : "e5585249-fd01-4193-9c02-2dd8ca996577",
+  "providerId" : "cp4admin/Customer-retention/SkyTalk ML provider1710337577588",
   "predictionParameters" : {
     "predictionParamType" : "SIMPLE",
-    "deploymentId" : null,
-    "modelId" : null
+    "modelId" : "0d3a3259-6c03-4547-a9b7-89f034c33d7b",
+    "deploymentId" : "31f95033-4545-4ce9-9768-faa5f3929193"
   },
   "version" : "V1"
 }

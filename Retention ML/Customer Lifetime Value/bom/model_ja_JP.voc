@@ -9,7 +9,7 @@ cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error.message#phr
 
 # cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input#concept.label = ML モデル入力
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.Input(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.Integer)#phrase.navigation = 新規の {ML モデル入力}ここで{0, gender} {1, status} {2, household} {3, est income} {4, car owner} {5, age} {6, paymethod} {7, usage} {8, rateplan} 
+cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.Input(java.lang.String,java.lang.String,java.lang.Double,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.Double)#phrase.navigation = 新規の {ML モデル入力}ここで{0, gender} {1, status} {2, household} {3, est income} {4, car owner} {5, age} {6, paymethod} {7, usage} {8, rateplan} 
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.action = {this}のageを{age}とする
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.addition_setter = {this}のageに{age}を追加する
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.navigation = {this}の{age}

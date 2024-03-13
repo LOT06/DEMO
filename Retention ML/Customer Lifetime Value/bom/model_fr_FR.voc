@@ -27,7 +27,7 @@ cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error.message#phr
 
 # cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input#concept.label = Entrée de modèle ML
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.Input(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.Integer)#phrase.navigation = une nouvelle {Entrée de modèle ML} tel que {0, gender} {1, status} {2, household} {3, est income} {4, car owner} {5, age} {6, paymethod} {7, usage} {8, rateplan} 
+cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.Input(java.lang.String,java.lang.String,java.lang.Double,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.Double)#phrase.navigation = une nouvelle {Entrée de modèle ML} tel que {0, gender} {1, status} {2, household} {3, est income} {4, car owner} {5, age} {6, paymethod} {7, usage} {8, rateplan} 
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.action = assigner l'age {this,PARTITIVE_ARTICLE} à {age}
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.addition_setter = ajouter {age} à l'age {this,PARTITIVE_ARTICLE}
 cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.navigation = {age} {this,PARTITIVE_ARTICLE}
