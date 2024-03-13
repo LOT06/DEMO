@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>Validate Time Window</name>
-  <uuid>727baf5e-f939-4016-a514-87ef0a3b3420</uuid>
-</ilog.rules.studio.model.base:RulePackage>
