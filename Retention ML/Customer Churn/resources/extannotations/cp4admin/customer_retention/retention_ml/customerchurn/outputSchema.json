@@ -1,12 +1,8 @@
 {
-  "id" : "default_schema_id",
+  "id" : "schemaOut",
   "fields" : [ {
-    "name" : "prediction",
+    "name" : "output",
     "type" : "string",
-    "nullable" : true
-  }, {
-    "name" : "probability",
-    "type" : "[double]",
     "nullable" : true
   } ]
 }
