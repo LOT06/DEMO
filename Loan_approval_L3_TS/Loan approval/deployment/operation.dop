@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Loan approval">
+  <name>Loan_approval</name>
+  <uuid>689c8c4d-a391-4933-bd45-95f87b5213c7</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#144c60d4-ebbd-4a3e-a662-d0859c8ae1b5"/>
+  <targetRuleProject href="../../Loan%20approval#ef6db0b8-a0b3-4a67-868c-bda410d8ea6e"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Loan_approval"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

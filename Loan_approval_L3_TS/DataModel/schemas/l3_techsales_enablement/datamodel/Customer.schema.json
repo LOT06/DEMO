@@ -1,0 +1,32 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://ibm.com/dba/projects/l3_techsales_enablement:dataModel/l3_techsales_enablement/datamodel/Customer.schema.json",
+  "x-ibm-json-name" : "Customer",
+  "x-ibm-package-name" : "l3_techsales_enablement.datamodel",
+  "type" : "object",
+  "title" : "Customer",
+  "properties" : {
+    "age" : {
+      "title" : "age",
+      "type" : "integer",
+      "format" : "int32"
+    },
+    "income" : {
+      "title" : "income",
+      "type" : "number",
+      "format" : "double"
+    },
+    "name" : {
+      "title" : "name",
+      "type" : [ "string", "null" ]
+    },
+    "occupationalStatus" : {
+      "title" : "occupational status",
+      "oneOf" : [ {
+        "$ref" : "http://ibm.com/dba/projects/l3_techsales_enablement:dataModel/l3_techsales_enablement/datamodel/OccupationalStatusType.schema.json"
+      }, {
+        "type" : "null"
+      } ]
+    }
+  }
+}

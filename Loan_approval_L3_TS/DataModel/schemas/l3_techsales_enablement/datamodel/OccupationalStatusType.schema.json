@@ -1,0 +1,9 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://ibm.com/dba/projects/l3_techsales_enablement:dataModel/l3_techsales_enablement/datamodel/OccupationalStatusType.schema.json",
+  "x-ibm-json-name" : "OccupationalStatusType",
+  "x-ibm-package-name" : "l3_techsales_enablement.datamodel",
+  "title" : "Occupational status type",
+  "type" : "string",
+  "enum" : [ "FullTime", "PartTime", "Retired", "Unemployed" ]
+}

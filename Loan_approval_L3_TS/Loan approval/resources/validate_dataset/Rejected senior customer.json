@@ -1,0 +1,1 @@
+{"operationId":"689c8c4d-a391-4933-bd45-95f87b5213c7","body":{"theCustomer":{"age":70,"income":45000,"name":"Laurent","occupationalStatus":"PartTime"},"theLoanRequest":{"amount":60000,"duration":100}}}

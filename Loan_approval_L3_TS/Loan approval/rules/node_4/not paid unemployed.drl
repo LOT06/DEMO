@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>not paid unemployed</name>
+  <uuid>c9e19326-d9e3-4b3e-8366-3d0030edd281</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the income of 'the customer'  equals 0 
+	and the occupational status of 'the customer' is Unemployed 
+then
+	set decision to Very high ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Compute ratio</name>
+  <uuid>f097e475-78d9-4b2d-b8df-3f4d95c1e230</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the income of 'the customer' is more than 0 
+    and the duration of 'the loan request' is more than 0
+then
+	set decision to the amount of 'the loan request'/ 
+    the duration of 'the loan request'/ the income of 'the customer';
+    ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

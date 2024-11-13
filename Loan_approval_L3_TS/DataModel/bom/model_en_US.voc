@@ -1,0 +1,58 @@
+
+# l3_techsales_enablement.datamodel.ApprovalDecision
+l3_techsales_enablement.datamodel.ApprovalDecision#concept.label = Approval decision
+l3_techsales_enablement.datamodel.ApprovalDecision.ApprovalDecision(java.lang.String,l3_techsales_enablement.datamodel.StatusType)#phrase.navigation = a new {Approval decision} where {0, comments} {1, status}
+l3_techsales_enablement.datamodel.ApprovalDecision.comments#phrase.action = set the comments of {this} to {comments}
+l3_techsales_enablement.datamodel.ApprovalDecision.comments#phrase.navigation = {comments} of {this}
+l3_techsales_enablement.datamodel.ApprovalDecision.status#phrase.action = set the status of {this} to {status}
+l3_techsales_enablement.datamodel.ApprovalDecision.status#phrase.clearer = clear the status of {this}
+l3_techsales_enablement.datamodel.ApprovalDecision.status#phrase.navigation = {status} of {this}
+
+# l3_techsales_enablement.datamodel.Customer
+l3_techsales_enablement.datamodel.Customer#concept.label = Customer
+l3_techsales_enablement.datamodel.Customer.Customer(int,double,java.lang.String,l3_techsales_enablement.datamodel.OccupationalStatusType)#phrase.navigation = a new {Customer} where {0, age} {1, income} {2, name} {3, occupational status}
+l3_techsales_enablement.datamodel.Customer.age#phrase.action = set the age of {this} to {age}
+l3_techsales_enablement.datamodel.Customer.age#phrase.addition_setter = add {age} to the age of {this}
+l3_techsales_enablement.datamodel.Customer.age#phrase.navigation = {age} of {this}
+l3_techsales_enablement.datamodel.Customer.age#phrase.subtraction_setter = subtract {age} from the age of {this}
+l3_techsales_enablement.datamodel.Customer.income#phrase.action = set the income of {this} to {income}
+l3_techsales_enablement.datamodel.Customer.income#phrase.addition_setter = add {income} to the income of {this}
+l3_techsales_enablement.datamodel.Customer.income#phrase.navigation = {income} of {this}
+l3_techsales_enablement.datamodel.Customer.income#phrase.subtraction_setter = subtract {income} from the income of {this}
+l3_techsales_enablement.datamodel.Customer.name#phrase.action = set the name of {this} to {name}
+l3_techsales_enablement.datamodel.Customer.name#phrase.navigation = {name} of {this}
+l3_techsales_enablement.datamodel.Customer.occupationalStatus#phrase.action = set the occupational status of {this} to {occupational status}
+l3_techsales_enablement.datamodel.Customer.occupationalStatus#phrase.clearer = clear the occupational status of {this}
+l3_techsales_enablement.datamodel.Customer.occupationalStatus#phrase.navigation = {occupational status} of {this}
+
+# l3_techsales_enablement.datamodel.OccupationalStatusType
+l3_techsales_enablement.datamodel.OccupationalStatusType#concept.label = Occupational status type
+l3_techsales_enablement.datamodel.OccupationalStatusType.fullTime#instance.label = Full time
+l3_techsales_enablement.datamodel.OccupationalStatusType.partTime#instance.label = Part time
+l3_techsales_enablement.datamodel.OccupationalStatusType.retired#instance.label = Retired
+l3_techsales_enablement.datamodel.OccupationalStatusType.unemployed#instance.label = Unemployed
+
+# l3_techsales_enablement.datamodel.Request
+l3_techsales_enablement.datamodel.Request#concept.label = Request
+l3_techsales_enablement.datamodel.Request.Request(double,int)#phrase.navigation = a new {Request} where {0, amount} {1, duration}
+l3_techsales_enablement.datamodel.Request.amount#phrase.action = set the amount of {this} to {amount}
+l3_techsales_enablement.datamodel.Request.amount#phrase.addition_setter = add {amount} to the amount of {this}
+l3_techsales_enablement.datamodel.Request.amount#phrase.navigation = {amount} of {this}
+l3_techsales_enablement.datamodel.Request.amount#phrase.subtraction_setter = subtract {amount} from the amount of {this}
+l3_techsales_enablement.datamodel.Request.duration#phrase.action = set the duration of {this} to {duration}
+l3_techsales_enablement.datamodel.Request.duration#phrase.addition_setter = add {duration} to the duration of {this}
+l3_techsales_enablement.datamodel.Request.duration#phrase.navigation = {duration} of {this}
+l3_techsales_enablement.datamodel.Request.duration#phrase.subtraction_setter = subtract {duration} from the duration of {this}
+
+# l3_techsales_enablement.datamodel.RiskType
+l3_techsales_enablement.datamodel.RiskType#concept.label = Risk type
+l3_techsales_enablement.datamodel.RiskType.high#instance.label = High
+l3_techsales_enablement.datamodel.RiskType.low#instance.label = Low
+l3_techsales_enablement.datamodel.RiskType.medium#instance.label = Medium
+l3_techsales_enablement.datamodel.RiskType.veryHigh#instance.label = Very high
+
+# l3_techsales_enablement.datamodel.StatusType
+l3_techsales_enablement.datamodel.StatusType#concept.label = Status type
+l3_techsales_enablement.datamodel.StatusType.approved#instance.label = Approved
+l3_techsales_enablement.datamodel.StatusType.rejected#instance.label = Rejected
+l3_techsales_enablement.datamodel.StatusType.review#instance.label = Review

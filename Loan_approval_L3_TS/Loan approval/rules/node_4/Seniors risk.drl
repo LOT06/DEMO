@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Seniors risk</name>
+  <uuid>f0acfbe7-97da-4a30-b376-28e391d4ca9d</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the age of 'the customer' + the duration of 'the loan request'/12 is more than 71
+    
+then
+	set decision to Very high ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

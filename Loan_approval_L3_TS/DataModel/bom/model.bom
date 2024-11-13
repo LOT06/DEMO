@@ -1,0 +1,138 @@
+
+package l3_techsales_enablement.datamodel;
+
+
+class ApprovalDecision
+        property ads.typeId "6"
+        property com.fasterxml.jackson.annotation.JsonTypeName "ApprovalDecision"
+        #de.generated
+{
+    string comments
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "comments"
+                #update;
+    l3_techsales_enablement.datamodel.StatusType status
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "status"
+                #update;
+    ApprovalDecision(string comments, l3_techsales_enablement.datamodel.StatusType status)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    ApprovalDecision()
+                #dataio.default;
+}
+
+class Customer
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Customer"
+        #de.generated
+{
+    int age
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "age"
+                #update;
+    double income
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "income"
+                #update;
+    string name
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "name"
+                #update;
+    l3_techsales_enablement.datamodel.OccupationalStatusType occupationalStatus
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "occupationalStatus"
+                #update;
+    Customer(int age, double income, string name, l3_techsales_enablement.datamodel.OccupationalStatusType occupationalStatus)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Customer()
+                #dataio.default;
+}
+
+class OccupationalStatusType
+        extends java.lang.Enum
+        property ads.typeId "4"
+        property com.fasterxml.jackson.annotation.JsonTypeName "OccupationalStatusType"
+        #de.generated
+{
+    domain {static fullTime, static partTime, static retired, static unemployed}
+    static final readonly l3_techsales_enablement.datamodel.OccupationalStatusType fullTime
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "FullTime";
+    static final readonly l3_techsales_enablement.datamodel.OccupationalStatusType partTime
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "PartTime";
+    static final readonly l3_techsales_enablement.datamodel.OccupationalStatusType retired
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "Retired";
+    static final readonly l3_techsales_enablement.datamodel.OccupationalStatusType unemployed
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "Unemployed";
+}
+
+class Request
+        property ads.typeId "2"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Request"
+        #de.generated
+{
+    double amount
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "amount"
+                #update;
+    int duration
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "duration"
+                #update;
+    Request(double amount, int duration)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Request()
+                #dataio.default;
+}
+
+class RiskType
+        extends java.lang.Enum
+        property ads.typeId "5"
+        property com.fasterxml.jackson.annotation.JsonTypeName "RiskType"
+        #de.generated
+{
+    domain {static high, static low, static medium, static veryHigh}
+    static final readonly l3_techsales_enablement.datamodel.RiskType high
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "High";
+    static final readonly l3_techsales_enablement.datamodel.RiskType low
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Low";
+    static final readonly l3_techsales_enablement.datamodel.RiskType medium
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Medium";
+    static final readonly l3_techsales_enablement.datamodel.RiskType veryHigh
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "VeryHigh";
+}
+
+class StatusType
+        extends java.lang.Enum
+        property ads.typeId "3"
+        property com.fasterxml.jackson.annotation.JsonTypeName "StatusType"
+        #de.generated
+{
+    domain {static approved, static rejected, static review}
+    static final readonly l3_techsales_enablement.datamodel.StatusType approved
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Approved";
+    static final readonly l3_techsales_enablement.datamodel.StatusType rejected
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "Rejected";
+    static final readonly l3_techsales_enablement.datamodel.StatusType review
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "Review";
+}
+

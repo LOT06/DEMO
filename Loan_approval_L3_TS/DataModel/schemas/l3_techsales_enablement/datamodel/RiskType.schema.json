@@ -1,0 +1,9 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://ibm.com/dba/projects/l3_techsales_enablement:dataModel/l3_techsales_enablement/datamodel/RiskType.schema.json",
+  "x-ibm-json-name" : "RiskType",
+  "x-ibm-package-name" : "l3_techsales_enablement.datamodel",
+  "title" : "Risk type",
+  "type" : "string",
+  "enum" : [ "High", "Low", "Medium", "VeryHigh" ]
+}

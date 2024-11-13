@@ -1,0 +1,20 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://ibm.com/dba/projects/l3_techsales_enablement:dataModel/l3_techsales_enablement/datamodel/Request.schema.json",
+  "x-ibm-json-name" : "Request",
+  "x-ibm-package-name" : "l3_techsales_enablement.datamodel",
+  "type" : "object",
+  "title" : "Request",
+  "properties" : {
+    "amount" : {
+      "title" : "amount",
+      "type" : "number",
+      "format" : "double"
+    },
+    "duration" : {
+      "title" : "duration",
+      "type" : "integer",
+      "format" : "int32"
+    }
+  }
+}

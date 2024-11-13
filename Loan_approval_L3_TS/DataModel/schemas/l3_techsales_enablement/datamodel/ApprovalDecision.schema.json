@@ -1,0 +1,22 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "$id" : "http://ibm.com/dba/projects/l3_techsales_enablement:dataModel/l3_techsales_enablement/datamodel/ApprovalDecision.schema.json",
+  "x-ibm-json-name" : "ApprovalDecision",
+  "x-ibm-package-name" : "l3_techsales_enablement.datamodel",
+  "type" : "object",
+  "title" : "Approval decision",
+  "properties" : {
+    "comments" : {
+      "title" : "comments",
+      "type" : [ "string", "null" ]
+    },
+    "status" : {
+      "title" : "status",
+      "oneOf" : [ {
+        "$ref" : "http://ibm.com/dba/projects/l3_techsales_enablement:dataModel/l3_techsales_enablement/datamodel/StatusType.schema.json"
+      }, {
+        "type" : "null"
+      } ]
+    }
+  }
+}

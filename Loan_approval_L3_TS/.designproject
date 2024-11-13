@@ -1,0 +1,10 @@
+{
+  "description" : "",
+  "groupId" : "laurent.tarin_fr.ibm.com.loan_approval.loan_approval_l3_ts",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ]
+  },
+  "extraProperties" : { }
+}
